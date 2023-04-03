@@ -1,6 +1,6 @@
 import { useWorkoutsContext } from '../hooks/useWorkoutsContext'
 
-//date fns
+//date fns, formats the CreatedAt string 
 import formatDistanceToNow from 'date-fns/formatDistanceToNow'
 
 const WorkoutsDetails = ({workout}) =>{
