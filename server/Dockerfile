@@ -4,6 +4,7 @@ FROM node:18-alpine
 WORKDIR /usr/app
 # Install app dependencies
 COPY package*.json ./
+RUN echo -e "PORT=4000\nMONGO_URI=\"\"" > .env
 RUN npm install nodemon --save-dev
 RUN npm install -qy
 # Copy app to container
