@@ -10,7 +10,7 @@ DELETE	/workouts/:id	--> Deletes a single workout
 PATCH	/workouts/:id	--> updates a single workout
 ````
 
-### How to use:
+### How to Use:
 ````
 <!> Requires Docker
   - Clone this repository into a folder
